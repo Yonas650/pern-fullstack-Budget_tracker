@@ -25,7 +25,7 @@ npm install
 ```bash
 cd src
 npm install
-
+```
 3. **Set up the PostgreSQL database**
 
 - Ensure PostgreSQL is installed and running on your machine.
@@ -35,12 +35,12 @@ npm install
 ```bash
 cd server
 npm start
-
+```
 5. **Run the client**
 ```bash
 cd client
 npm start
-
+```
 ## Usage
 Once the application is running, navigate to http://localhost:3000 in your web browser to access the Budget Tracker. Register for a new account to begin tracking your financial transactions.
 
