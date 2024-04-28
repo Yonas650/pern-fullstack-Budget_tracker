@@ -18,9 +18,11 @@ To get this project up and running on your local machine, follow these steps:
    cd pern-fullstack-Budget_tracker
 2. **Install dependencies**
 - For the server:
+```bash
 cd server
 npm install
 - For the client:
+```bash
 cd src
 npm install
 
@@ -30,10 +32,12 @@ npm install
 - Create a database named budget_tracker and run the SQL scripts 
 
 4. **Start the server**
+```bash
 cd server
 npm start
 
 5. **Run the client**
+```bash
 cd client
 npm start
 
