@@ -1,74 +1,44 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Budget Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Budget Tracker is a comprehensive web application designed to help users manage their finances efficiently by tracking their expenses and incomes. Built with the PERN stack (PostgreSQL, Express, React, Node.js), this project allows users to perform real-time financial tracking.
 
-## Available Scripts
+## Features
+- **User Authentication**: Secure login and registration system to manage personal accounts.
+- **Transaction Management**: Users can add, delete, and view transactions divided into various categories.
+- **Dashboard**: Visual representation of transactions with Google Charts for better financial insights.
+- **Responsive Design**: Adapted for various devices with Bootstrap, ensuring a smooth user experience.
 
-In the project directory, you can run:
+## Installation
+To get this project up and running on your local machine, follow these steps:
 
-### `npm start`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Yonas650/pern-fullstack-Budget_tracker.git
+   cd pern-fullstack-Budget_tracker
+2. **Install dependencies**
+- For the server:
+cd server
+npm install
+- For the client:
+cd src
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Set up the PostgreSQL database**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Ensure PostgreSQL is installed and running on your machine.
+- Create a database named budget_tracker and run the SQL scripts 
 
-### `npm test`
+4. **Start the server**
+cd server
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Run the client**
+cd client
+npm start
 
-### `npm run build`
+## Usage
+Once the application is running, navigate to http://localhost:3000 in your web browser to access the Budget Tracker. Register for a new account to begin tracking your financial transactions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# pern-fullstack-Budget_tracker
->>>>>>> f20939198dfaee07c1a8f0bb69b0dd85db1a479f
+## Contributing
+Contributions to this project are welcome. Please fork the repository, make your changes, and submit a pull request. You can also open issues for bugs, suggestions, or enhancements.
