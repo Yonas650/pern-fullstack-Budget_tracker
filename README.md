@@ -1,4 +1,4 @@
-# Budget Tracker
+# pern-fullstack-Budget_Tracker
 
 ## Overview
 Budget Tracker is a comprehensive web application designed to help users manage their finances efficiently by tracking their expenses and incomes. Built with the PERN stack (PostgreSQL, Express, React, Node.js), this project allows users to perform real-time financial tracking.
@@ -15,12 +15,13 @@ To get this project up and running on your local machine, follow these steps:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Yonas650/pern-fullstack-Budget_tracker.git
-   cd pern-fullstack-Budget_tracker
+   cd pern-fullstack-Budget_tracker```
 2. **Install dependencies**
 - For the server:
 ```bash
 cd server
 npm install
+```
 - For the client:
 ```bash
 cd src
