@@ -34,12 +34,12 @@ npm install
 
 4. **Start the server**
 ```bash
-cd src
+cd server
 npm start
 ```
 5. **Run the client**
 ```bash
-cd client
+cd src
 npm start
 ```
 ## Usage
